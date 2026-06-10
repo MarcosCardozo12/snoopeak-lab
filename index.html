@@ -2190,20 +2190,21 @@
 <section id="entrenamientos" style="background: var(--gray);">
   <div class="section-label">// 04 — Nuestros programas</div>
   <h2 class="section-title">ENTRENAMIENTOS</h2>
-  <div class="entrena-tabs-lab">
-    <button class="etab-lab active" onclick="switchTabLab('libre')">Personalizado Libre</button>
-    <button class="etab-lab " onclick="switchTabLab('perso')">Personalizado en alto Rendimiento</button>
-    
-  </div>
-  <div class="entrena-panel-lab active" id="labpanel-libre">
-    <p class="entrena-intro-lab">El atleta entrena de forma autónoma. Realizamos una evaluación inicial y entregamos una rutina personalizada para seguir por su cuenta dentro de nuestras instalaciones.</p>
+
+  <!-- BLOQUE: PERSONALIZADO LIBRE -->
+  <div style="margin-bottom: 3rem;">
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:0.8rem;">
+      <span style="background:var(--accent); color:var(--black); font-family:'Space Mono',monospace; font-size:0.5rem; letter-spacing:2px; text-transform:uppercase; padding:3px 10px; font-weight:700;">Personalizado Libre</span>
+      <span style="font-family:'Bebas Neue',sans-serif; font-size:1.2rem; letter-spacing:2px; color:var(--white);">Personalizado Libre</span>
+    </div>
+    <p class="entrena-intro-lab" style="border-left:2px solid var(--accent); padding-left:10px; margin-bottom:1.5rem;">
+      El atleta entrena de forma autónoma. Realizamos una evaluación inicial y entregamos una rutina personalizada para seguir por su cuenta dentro de nuestras instalaciones.
+    </p>
     <div class="planes-grid-lab">
       <div class="plan-card-lab" style="border-top:3px solid rgba(255,230,0,0.3); position:relative;">
         <div class="plan-freq-lab">4</div>
         <div class="plan-sub-lab">accesos/mes · 1× semana</div>
-        <div class="plan-desc-lab">Se recomienda para principiantes para luego evolucionar hacia 2 a la semana.
-          Tambien para personas que quieran completar algun tipo de entrenamiento.
-        </div>
+        <div class="plan-desc-lab">Se recomienda para principiantes para luego evolucionar hacia 2 a la semana. También para personas que quieran completar algún tipo de entrenamiento.</div>
         <div style="margin-top:20px; padding-top:16px; border-top:1px solid rgba(255,255,255,0.06);">
           <div style="font-family:'Bebas Neue',sans-serif; font-size:2.4rem; color:var(--accent); line-height:1;">$45.000</div>
           <div style="font-family:'Space Mono',monospace; font-size:0.55rem; letter-spacing:2px; color:var(--text-dim); text-transform:uppercase; margin-top:4px;">por mes</div>
@@ -2239,8 +2240,18 @@
       </div>
     </div>
   </div>
-  <div class="entrena-panel-lab" id="labpanel-perso">
-    <p class="entrena-intro-lab">Programas a la medida de cada atleta, basados en evaluaciones fisicas, analisis biomecanicos y objetivos individuales. Orientado a mejorar el rendimiento competitivo, optimizar la recuperacion y marcar diferencias dentro del deporte.</p>
+
+  <hr style="border:none; border-top:1px solid rgba(255,255,255,0.08); margin-bottom:3rem;">
+
+  <!-- BLOQUE: PERSONALIZADO EN ALTO RENDIMIENTO -->
+  <div>
+    <div style="display:flex; align-items:center; gap:12px; margin-bottom:0.8rem;">
+      <span style="background:var(--accent); color:var(--black); font-family:'Space Mono',monospace; font-size:0.5rem; letter-spacing:2px; text-transform:uppercase; padding:3px 10px; font-weight:700;">Personalizado en Alto Rendimiento</span>
+      <span style="font-family:'Bebas Neue',sans-serif; font-size:1.2rem; letter-spacing:2px; color:var(--white);">Personalizado En Alto Rendimiento</span>
+    </div>
+    <p class="entrena-intro-lab" style="border-left:2px solid var(--accent); padding-left:10px; margin-bottom:1.5rem;">
+      Programas a la medida de cada atleta, basados en evaluaciones físicas, análisis biomecánicos y objetivos individuales. Orientado a mejorar el rendimiento competitivo, optimizar la recuperación y marcar diferencias dentro del deporte.
+    </p>
     <div class="planes-grid-lab">
       <div class="plan-card-lab" style="border-top:3px solid rgba(255,230,0,0.3); position:relative;">
         <div class="plan-freq-lab">1×</div>
@@ -2281,7 +2292,7 @@
       </div>
     </div>
   </div>
-  
+
 </section>
 
 
